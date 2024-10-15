@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url("./images/hermoso-violin-mesa-madera_mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p {
+    font-size: 1.6rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* Hasta aquí reglas que afectan al documento completo */
+.header-description {
+    width: 75%;
+    position: relative;
+    top: 40vh;
+    font-size: 1.6rem;
+    font-family: cursive;
+    padding: 0 10px;
+    color: white;
+}
+.header-description h1 {
+    margin-bottom: 5px;
+}
+.header-description button {
+    width: 100px;
+    height: 50px;
+    margin-top: 30px;
+    background-color: white;
+    border-color: #0086f8 #ff4131 #febd02 #00aa4a;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+/* Hasta aquí los estilos del header */
+
+.main-first-section {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-first-section h1, p {
+    padding: 10px;
+}
+.main-first-section h1 {
+    font-size: 2.5rem;
+    font-family: "Roboto", san-serif;
+}
+.main-first-section figure {
+    width: 75%;
+}
+.main-first-section img {
+    width: 100%;
+}
+/* Hasta aquí reglas del primer section parte informativa sobre los instrumentos */
+.billing-card {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #19191a;
+}
+.billing-card div {
+    width: 40%;
+    max-width: 250px;
+    max-height: 340px;
+    padding: 10px 20px;
+    align-self: center;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 1.6rem;
+}
+.billing-button {
+    width: 100%;
+    background-color: #00a849;
+    color: white;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+@media (min-width: 768px) {
+    header {
+        background-image: url('./images/hermoso-violin-mesa-madera_225446-1614.jpg');
+    }
+}
